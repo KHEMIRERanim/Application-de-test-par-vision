@@ -1,0 +1,34 @@
+# Ignorer les environnements virtuels et les bibliothèques
+/Lib/
+/Library/
+/Scripts/
+/share/
+/pyenv/
+__pycache__/
+
+# Ignorer les fichiers de modèles de machine learning et les fichiers de données volumineux
+*.h5
+*.pt
+
+# Ignorer les fichiers de résultats, logs et autres fichiers générés
+result.txt
+resultats.txt
+results.txt
+*.lock
+
+# Ignorer les dossiers de tests (si non essentiels)
+test_afficheur_teststand/
+test_prise_de_photo_afficheur_teststand/
+test_prise_de_photo_gravure_capot_teststand/
+test-gravure_capot_teststand/
+
+# Ignorer le fichier pyvenv.cfg
+pyvenv.cfg
+
+# Ignorer le fichier TestStand
+Test_par_vision.seq
+
+
+
+
+
